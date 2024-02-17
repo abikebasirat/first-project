@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Cormorant+SC:wght@300;400;500&family=Inter:wght@500&family=Maven+Pro:wght@400;500;600&family=Montserrat:wght@500&family=Poppins:wght@600&display=swap");
+
+*{
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    .bigerCard{
+         background-color:white;
+         border-radius: 20px;
+    }
+    .small-card{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0.8rem;
+      display: flex;
+      gap: 20px;  
+    }
+
+body{
+    background-color: rgb(26, 26, 26);
+}
+.header {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+.topic{
+    display: flex;
+    gap: 10px;
+}
+
+.number{
+    /* padding: 4px; */
+    padding: 10px 20px;
+    background-color: rgba(12, 12, 89, 0.986);
+     border-radius: 15px; 
+     text-align: center;
+    color: white;
+    /* margin-right:30rem; */
+    justify-content: space-between;
+}
+.container{
+    background-color: whitesmoke;
+    padding: 50px;
+
+}
+   
+
+
+h1 {
+
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 25px;
+}
+
+.navList{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    margin-right: 40px;
+    
+}
+.main,
+.main:visited {
+    cursor: pointer;
+    text-decoration: none;
+     color: black;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 20px;
+     font-family: "poppins",sans-serif;
+      
+}
+
+.main:hover,.navList:active{
+     color: rgb(90, 90, 243); 
+     
+     
+}
+
+
+.mark:link{
+    color: black;
+}
+
+.p1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top:30px;
+    margin-left: 40;
+    background-color: rgba(164, 164, 239, 0.313);
+    padding: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.p1 span{
+    font-family: "poppins",sans-serif;
+    font-size: 25px;
+}
+
+.p1 span:hover{
+    color: rgb(82, 82, 236);
+    cursor: pointer;
+    
+}
+
+.p1:hover, .p1 span:visited{
+     padding: 50px; 
+    
+}
+.low{
+    text-decoration: none;
+    color: darkgray;
+    display: flex; 
+     
+}
+
+
+
+img {
+    width: 30px;
+    display: flex;
+    border-radius: 50px;
+    margin-top: -3rem;
+    margin-left:-2rem; 
+    
+}
+.p2{
+    /* background-color: rgb(218, 218, 233); */
+
+    font-family: "poppins",sans-serif;
+    padding: 40px;
+    text-align: start;    
+}
+
+.p3{
+    text-align: start;
+}
+
+.p4{
+    text-align: start;
+    background-color: rgb(252, 250, 250);
+}
+
+.p5{
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.p5:hover{
+    background-color: rgb(175, 214, 251);
+    cursor: pointer;
+}
+
+.p6{
+    margin-left: 45px;
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+.p6 span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.girl{
+    margin-left: 50rem;
+    cursor: pointer;
+}
+.girl :hover , :visited {
+    position: absolute;
+    transform: rotate(5deg);
+    margin-top: 20px;
+}
+.image{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.day{
+    margin-left: 50px;
+    text-decoration: none;
+    color:rgb(84, 83 ,83) ;
+    font-size: 20px;
+}
+
+.p7{
+    margin-left: 45px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.p7 span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.lower{
+    text-decoration: none;
+    color: rgb(84, 83, 83);
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.p8{
+    margin-left: 45px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.p8 span{
+    text-decoration: none;
+    /* color: rgb(84, 83, 83); */
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
