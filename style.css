@@ -34,14 +34,16 @@ body{
 }
 
 .number{
-    /* padding: 4px; */
+    cursor: pointer;
     padding: 10px 20px;
     background-color: rgba(12, 12, 89, 0.986);
      border-radius: 15px; 
      text-align: center;
     color: white;
-    /* margin-right:30rem; */
     justify-content: space-between;
+}
+.number:hover{
+    background-color: black;
 }
 .container{
     background-color: whitesmoke;
@@ -126,12 +128,15 @@ h1 {
 
 img {
     width: 30px;
+    height: 30px;
     display: flex;
     border-radius: 50px;
     margin-top: -3rem;
     margin-left:-2rem; 
     
 }
+
+
 .p2{
     /* background-color: rgb(218, 218, 233); */
 
